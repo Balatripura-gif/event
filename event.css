@@ -1,0 +1,85 @@
+<style>
+    body{
+      background-color: rgba(240, 248, 255, 0.467);
+    }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    header{
+      background-color:rgba(0, 128, 0, 0.708);
+      text-align: center;
+      height: 100px;
+      color: white;
+      box-shadow:0 4px 6px rgba(0, 0, 0, 0.1) ;
+    }
+    a{
+      padding: 10px 10px 10px 10px;
+      line-height: 30px;
+      color: white;
+      text-decoration: none;
+
+    }
+    a:hover{
+      color:red;
+      text-decoration: underline;
+    }
+    nav{
+      text-align: center;
+      background-color:rgba(0, 0, 0, 0.689);
+      height: 40px;
+    }
+    section{
+      background-color: white;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);       line-height: 25px;
+      padding: 25px;
+      max-width: 900px;
+      margin:20px auto;
+      width: 90%;
+
+    }
+    table{
+      border-collapse: collapse;
+      border: 1px solid black;
+      table-layout: fixed; 
+      padding: 5px;
+      width: 100%;
+
+    }
+    td,th{
+      border-collapse: collapse;
+      border: 1px solid black;
+      table-layout: fixed; 
+      padding: 5px;
+      background-color: transparent;
+    }
+    table tr:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.14);    
+    }
+    th{
+      background-color: rgba(128, 128, 128, 0.364);
+    }
+    .label{
+      padding-left: 25px  ;
+      margin: 25px;
+      display: inline-block;
+      width: 100%;
+    }
+   button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: solid;
+    height: 35px;
+    border-radius: 8px;
+
+   }
+   h2,strong{
+      color:blue
+   }
+   ul{
+    list-style-type: none;
+   }
+  </style>
